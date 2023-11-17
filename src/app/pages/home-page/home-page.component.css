@@ -1,0 +1,18 @@
+.todo{
+    background-color: yellow;
+    height:100vh;
+}
+.box{
+    width: 50%;
+    height:500px;
+    background-color: aquamarine;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    overflow: scroll;
+
+}
+i{
+    cursor: pointer;
+}
+h1{
+    color: red;
+}
