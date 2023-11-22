@@ -1,5 +1,5 @@
 .todo{
-    background-color: yellow;
+    background-color: plum;
     height:100vh;
 }
 .box{
@@ -13,6 +13,13 @@
 i{
     cursor: pointer;
 }
-h1{
+.compl
+{
+    text-decoration: line-through;
     color: red;
 }
+input[type=checkbox]:checked + p.strikethrough {
+    text-decoration: line-through;
+    color:red;
+}
+
